@@ -1,3 +1,13 @@
+#container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+#box {
+    width: relative
+}
+
 #name {
     background-color: purple;
     font-size: 75px;
@@ -8,6 +18,18 @@
 #scratch {
     background-color: lightgray;
 }
+
+#navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-size-adjust: 50%;
+}
+
 p {
     margin: 0 0 0px;
 }

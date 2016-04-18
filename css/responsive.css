@@ -10,9 +10,14 @@
     }
     #image1 {
         width: 90vw;
+        max-width: 90%;
         align-content: center;
         margin-left: 15px;
         margin-right: 15px;
         text-align: center;
+    }
+    nav {
+        word-spacing: 100%;
+
     }
 }
