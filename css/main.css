@@ -38,7 +38,8 @@ Header
 a {
     padding-left: 5%;
     padding-right: 5%;
-    text-size-adjust: 50%;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 #footer {
