@@ -3,24 +3,44 @@
 <head>
      <meta name="viewpoint" content="width=device-width, initial-width=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <title></title>
+    <style type="text/css">
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {width: relative}
+    </style>
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row" style="color: white">
-            <h1 class="col-md-12 text-center" text->A Taste From Home</h1>
+        <div id="header">
+            <div class="row" style="color: white">
+                <p id="name" class="col-md-12 text-center" text->A Taste From Home</p>
+            </div>
+            <div class="row">
+                <p class="col-md-12 text-center" id="scratch">Fresh, home-made cookies from scratch, delivered to your door.</p>
+            </div>
+            <div>
+                <nav>
+                    <a href="Index.html">Home</a>
+                    <a href="About.html">About</a>
+                    <a href="Prices.html">Prices</a>
+                    <a href="Contact.html">Contact</a>
+                </nav>
+            </div>
         </div>
         <div class="row">
-            <h3 class="col-md-12 text-center">Fresh, home-made cookies from scrach, delivered to your door.</h3>
-        </div>
-        <div class="row">
-            <h3 class="col-md-12 text-center">~Please allow at least 1-day notice for orders, 2-days for special request~</h3>
+            <h3 class="col-md-12 text-center" id="special">~Please allow at least 1-day notice for orders, 2-days for special request~</h3>
         </div>
     </div>
     <div>
         <div class="row">
-            <div class="col-md-6" id="image"><img class="img-responsive" src="http://placehold.it/350x250"</div>
+            <div class="col-md-6" id="image1"><img class="img-responsive" src="http://placehold.it/350x250"</div>
             <div class="col-md-6"> Flavors:
                 <ul>
                     <li>Chocolate Chip</li>
