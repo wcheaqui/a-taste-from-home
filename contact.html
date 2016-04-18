@@ -1,0 +1,48 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewpoint" content="width=device-width, initial-width=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>A Taste From Home</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="header">
+            <div class="row" style="color: white">
+                <p id="name" class="col-md-12 text-center" text->A Taste From Home</p>
+            </div>
+            <div class="row">
+                <p class="col-md-12 text-center" id="scratch">Fresh, home-made cookies from scratch, delivered to your door.</p>
+            </div>
+            <div id="navigation">
+                <nav >
+                    <a href="Index.html">Home</a>
+                    <a href="About.html">About</a>
+                    <a href="Prices.html">Prices</a>
+                    <a href="Contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+        <div id="contact">
+            <h3>To Order:</h3>
+            <h4>Call or Text:</h4>
+            <p>623-879-2913 - Or - 503-432-9177</p>
+            <p>Email:</p>
+            <p id="myemail">tastefromhomecookies@gmail.com</p>
+            <form method="post">
+                Name: <input type="text" name="name" id="username"></input><br />
+                Email: <input type="text" name="email"></input><br />
+                Comment:<br /><textarea name="comment" id="comment"></textarea><br />
+
+                <input type="hidden" name="articleid" id="articleid" value="<? echo &_GET["id"]; ?"></input>
+                <input type="submit" value="Submit"></input>
+            </form>
+        </div>
+        <div class="row" id="footer">
+            <h3 class="col-md-12 text-center" id="special">~Please allow at least 1-day notice for orders, 2-days for special request~</h3>
+        </div>
+    </div>
+</body>
+</html>
