@@ -1,3 +1,6 @@
+/***************************************
+WHOLE WEBSITE
+****************************************/
 #container {
     width: 100%;
     display: flex;
@@ -8,6 +11,13 @@
     width: relative
 }
 
+p {
+    margin: 0 0 0px;
+}
+
+/***************************************
+Header
+****************************************/
 #name {
     background-color: purple;
     font-size: 75px;
@@ -22,6 +32,7 @@
 #navigation {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -30,6 +41,64 @@ a {
     text-size-adjust: 50%;
 }
 
-p {
-    margin: 0 0 0px;
+#footer {
+    margin-top: 50px;
+}
+
+/***************************************
+titles
+****************************************/
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+/***************************************
+Index
+****************************************/
+
+#flavors {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#image2 {
+    align-content: right;
+}
+
+/***************************************
+About
+****************************************/
+
+/***************************************
+Prices
+****************************************/
+
+#prices {
+    margin-top: 50px;
+}
+
+/***************************************
+Contact
+****************************************/
+
+#contact {
+    margin-top: 50px;
+}
+
+#myemail {
+    margin-bottom: 25px;
+}
+
+form {
+    text-align: center;
+}
+
+#email {
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
